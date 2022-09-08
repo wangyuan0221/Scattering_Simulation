@@ -186,7 +186,7 @@ cat > ${OUTFILE} << END
 #QSUB -ug gr20001
 #QSUB -W 60:00
 #QSUB -A p=${PROC}:t=${OMP_NUM_THREADS}:c=${OMP_NUM_THREADS}:m=3G
-#QSUB -M tamura.ryosuke.65w@st.kyoto-u.ac.jp
+#QSUB -M wang.yuan.73s@st.kyoto-u.ac.jp
 #QSUB -m b
 #QSUB -m e
 #============ Shell Script ============
